@@ -1,0 +1,59 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 2rem;
+}
+
+h1 {
+  color: slateblue;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form.logout {
+  display: inline-flex;
+}
+
+label {
+  margin-bottom: .5rem;
+}
+
+input {
+  padding: .8rem;
+  border: .1rem solid slategray;
+  border-radius: .3rem;
+}
+
+input[type="submit"] {
+  background: slateblue;
+  color: white;
+  border: .1rem solid slateblue;
+}
+
+.error {
+  color: coral;
+  margin-top: .5rem;
+}
+
+.flash, .alpha {
+  color: black;
+  border: .1rem solid black;
+  padding: .8rem;
+  margin-bottom: .5rem;
+  border-radius: .3rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.flash {
+  background: lightgreen;
+}
+
+.alpha {
+  background: lightcoral;
+}
